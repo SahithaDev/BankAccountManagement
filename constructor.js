@@ -14,6 +14,6 @@ function BankAccount(customerName, balance = 0) {
   };
 }
 const MyBank = new BankAccount("Sahitha", 1000);
-MyBank.deposit(200); //calling the method
-MyBank.withdraw(200);
+MyBank.deposit(3000); //calling the method
+//MyBank.withdraw(100);
 console.log(MyBank);
